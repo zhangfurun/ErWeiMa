@@ -15,6 +15,8 @@
 		158591A01E10F08F00A478D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1585919E1E10F08F00A478D4 /* LaunchScreen.storyboard */; };
 		158591AB1E10F08F00A478D4 /* erweimaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158591AA1E10F08F00A478D4 /* erweimaTests.m */; };
 		158591B61E10F08F00A478D4 /* erweimaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158591B51E10F08F00A478D4 /* erweimaUITests.m */; };
+		158591C61E10F63E00A478D4 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158591C41E10F63E00A478D4 /* ScanViewController.m */; };
+		158591C71E10F63E00A478D4 /* ScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158591C51E10F63E00A478D4 /* ScanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		158591B11E10F08F00A478D4 /* erweimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erweimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		158591B51E10F08F00A478D4 /* erweimaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = erweimaUITests.m; sourceTree = "<group>"; };
 		158591B71E10F08F00A478D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		158591C31E10F63E00A478D4 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		158591C41E10F63E00A478D4 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		158591C51E10F63E00A478D4 /* ScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				158591941E10F08F00A478D4 /* AppDelegate.m */,
 				158591961E10F08F00A478D4 /* ViewController.h */,
 				158591971E10F08F00A478D4 /* ViewController.m */,
+				158591C31E10F63E00A478D4 /* ScanViewController.h */,
+				158591C41E10F63E00A478D4 /* ScanViewController.m */,
+				158591C51E10F63E00A478D4 /* ScanViewController.xib */,
 				158591991E10F08F00A478D4 /* Main.storyboard */,
 				1585919C1E10F08F00A478D4 /* Assets.xcassets */,
 				1585919E1E10F08F00A478D4 /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					1585918C1E10F08F00A478D4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C592BC3464;
 						ProvisioningStyle = Automatic;
 					};
 					158591A51E10F08F00A478D4 = {
@@ -249,6 +258,7 @@
 				158591A01E10F08F00A478D4 /* LaunchScreen.storyboard in Resources */,
 				1585919D1E10F08F00A478D4 /* Assets.xcassets in Resources */,
 				1585919B1E10F08F00A478D4 /* Main.storyboard in Resources */,
+				158591C71E10F63E00A478D4 /* ScanViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +286,7 @@
 				158591981E10F08F00A478D4 /* ViewController.m in Sources */,
 				158591951E10F08F00A478D4 /* AppDelegate.m in Sources */,
 				158591921E10F08F00A478D4 /* main.m in Sources */,
+				158591C61E10F63E00A478D4 /* ScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = erweima/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifeghui.zhangfurun.erweima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C592BC3464;
 				INFOPLIST_FILE = erweima/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifeghui.zhangfurun.erweima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
